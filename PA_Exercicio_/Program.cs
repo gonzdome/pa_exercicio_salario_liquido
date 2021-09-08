@@ -42,7 +42,7 @@ namespace PA_Exercicio_
 
             salliquido = salbruto + valalimento + xfilho + xhrextra - descinss - descirpf;
 
-            Console.WriteLine("O salário líquido é de: R$" + salliquido + ",00!");
+            Console.WriteLine("O salário líquido é de: R$" + salliquido.ToString("c") + " !");
 
 
             Console.ReadKey();
